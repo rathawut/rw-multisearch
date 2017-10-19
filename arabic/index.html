@@ -35,6 +35,7 @@
   		arabicSites.forEach(function (arabicSite) {
   			window.open(arabicSite.replace(/{{searchTerm}}/g, searchTerm));
   		});
+  		searchTermInput.value = '';
   	}
   }
 </script>
